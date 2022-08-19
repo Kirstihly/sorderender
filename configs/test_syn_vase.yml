@@ -2,7 +2,7 @@
 ## trainer
 run_test: true
 batch_size: 24
-checkpoint_dir: results/syn_vase_pretrained
+checkpoint_dir: pretrained/syn_vase_pretrained
 checkpoint_name: checkpoint200.pth
 test_result_dir: results/syn_vase_pretrained/test_results_checkpoint200
 

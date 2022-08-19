@@ -7,10 +7,10 @@ checkpoint_name: checkpoint200.pth
 test_result_dir: results/male_pretrained/test_results_checkpoint200
 
 ## dataloader
-image_size: 1000
+image_size: 256
 load_gt_mask: true
 paired_data_dir_names: ['images', 'masks']
-paired_data_filename_diff: ['im_rendered', 'mask_rendered']
+paired_data_filename_diff: ['', '']
 test_data_dir: data/male/image_mask/test
 
 ## model
